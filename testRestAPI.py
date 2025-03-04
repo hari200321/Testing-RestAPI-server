@@ -27,7 +27,7 @@ class TestRESTAPIServer(unittest.TestCase):
 
    # Test Case : Insert Data
    def test_insert_data(self):
-       data = {"name": "hari", "email": "hari@example.com", "city": "Delhi", "country": "india"}
+       data = {"name": "anil", "email": "anil@example.com", "city": "Delhi", "country": "india"}
        result = self.rest_api_server.insert_data(data)
        self.assertEqual(result, False)
 
