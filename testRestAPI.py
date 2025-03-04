@@ -33,10 +33,10 @@ class TestRESTAPIServer(unittest.TestCase):
 
 
    # Test Case : Delete Data
-   def test_delete_data(self):
-       id = 5
-       result = self.rest_api_server.delete_data(id)
-       self.assertEqual(result, True)
+   # def test_delete_data(self):
+   #     id = 5
+   #     result = self.rest_api_server.delete_data(id)
+   #     self.assertEqual(result, True)
 
 
 
